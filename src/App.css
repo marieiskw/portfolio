@@ -1,0 +1,191 @@
+body {
+  color: #57564f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  margin: 0 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  list-style: none;
+}
+
+.headerItem {
+  width: 130px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #1a3263;
+  margin: 15px;
+  text-decoration: none;
+
+  &:hover {
+    color: #fab95b;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.profilePic {
+  width: 330px;
+}
+
+.name {
+  /* color: #e97f4a; */
+  color: #fab95b;
+  margin: 0;
+  font-size: 55px;
+  font-weight: bold;
+  width: 450px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.heroSection {
+  color: #1a3263;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.heroTitle {
+  margin: 0;
+}
+
+.heroDescription {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 50px 10%;
+}
+
+.sectionTitle {
+  color: #1a3263;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.sectionSubtitle {
+  color: #1a3263;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skillIcon {
+  width: 30px;
+  height: 30px;
+  margin: 0 3px;
+  fill: currentColor;
+}
+
+.project {
+  /* background-color: #7a7a73; */
+  text-align: center;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.projectPhoto {
+  width: 80%;
+}
+
+.projectTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.githubLink {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  fill: #7a7a73;
+
+  &:hover {
+    fill: #fab95b;
+  }
+}
+
+.techStack {
+  padding-top: 5px;
+}
+
+.appDescription {
+  display: flex;
+  margin: 0 10%;
+}
+
+.contact {
+  height: 150px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  fill: #7a7a73;
+
+  &:hover {
+    fill: #fab95b;
+  }
+}
+
+.iconMail {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: -5px;
+  cursor: pointer;
+  fill: #7a7a73;
+
+  &:hover {
+    fill: #fab95b;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 10px;
+}
