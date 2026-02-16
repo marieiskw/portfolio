@@ -1,5 +1,6 @@
 body {
   color: #57564f;
+  font-size: 20px;
 }
 
 html {
@@ -88,7 +89,7 @@ html {
 .sectionSubtitle {
   color: #1a3263;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin: 15px;
 }
@@ -105,7 +106,6 @@ html {
 }
 
 .project {
-  /* background-color: #7a7a73; */
   text-align: center;
 }
 
@@ -123,15 +123,20 @@ html {
 .projectTitle {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 20px;
   font-size: 25px;
   font-weight: bold;
 }
 
-.githubLink {
+.projectLink {
+  display: flex;
+  align-items: center;
+}
+
+.linkIcon {
   width: 30px;
   height: 30px;
-  margin: 0 10px;
+  margin: 0 5px;
   cursor: pointer;
   fill: #7a7a73;
 

@@ -5,6 +5,7 @@ import GithubIcon from "./assets/github.svg?react";
 import LinkedinIcon from "./assets/linkedin.svg?react";
 import MailIcon from "./assets/email.svg?react";
 
+import { FaLink } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
 import { SiReact, SiJavascript, SiHtml5, SiCss3, SiSass } from "react-icons/si";
 import "./App.css";
@@ -112,6 +113,10 @@ function Projects() {
   const openCode = () => {
     window.open("https://github.com/marieiskw/min-ordbog");
   };
+  const openMinOrdbog = () => {
+    window.open("https://min-ordbog.vercel.app/");
+  };
+
   return (
     <div id="projects" className="wrapper">
       <div className="sectionTitle">Projects</div>
@@ -120,7 +125,10 @@ function Projects() {
         <div className="titleWrapper">
           <div className="projectTitle">
             min-ordbog
-            <GithubIcon className="githubLink" onClick={openCode} />
+            <div className="projectLink">
+              <GithubIcon className="linkIcon" onClick={openCode} />
+              <FaLink className="linkIcon" onClick={openMinOrdbog} />
+            </div>
           </div>
           <div className="techStack">
             React | JavaScript | HTML | CSS | SASS | Vercel
